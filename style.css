@@ -1,0 +1,62 @@
+.fa {
+    padding: 5px;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 8px;
+  }
+
+  .fa:hover {
+    color: white;
+    font-size: 32px;
+    filter: blur(2px);
+  }
+  .fa-instagram {
+    background: #eea04e;
+    background: -webkit-linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    background: linear-gradient(
+      45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%
+    );
+    color: white;
+  }
+  .fa-linkedin {
+    background-color: #0a66c2;
+    color: white;
+  }
+
+  .maincontainer{
+    display: flex;
+    
+  }
+
+  .Navbar{
+    width: 100% ;
+    background-color: #a3a3a3;
+  }
+  .heading{
+    position: absolute;
+    left: 45%;
+    top: 0%;
+    font-size: 50px;
+    font-family: 'roboto';
+  }
+
+  @media screen and (max-width:900px){
+    .maincontainer{
+      display: block;
+      
+    }
+  
+
+  }
