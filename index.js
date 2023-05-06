@@ -1,18 +1,4 @@
-// Script for timer 
-setInterval(function () {
-    var today = new Date();
-    var h = today.getHours();
-    var m = today.getMinutes();
-    var s = today.getSeconds();
-    let time = document.getElementById("txt");
-    if (h > 12) {
-      h -= 12;
-      s += " pm";
-    } else {
-      s += " am";
-    }
-    time.innerHTML = h + ":" + m + ":" + s;
-  }, 1000);
+
 
 
 //    Script for date in main heading 
