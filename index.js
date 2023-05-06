@@ -1,13 +1,3 @@
-
-
-
-//    Script for date in main heading 
-
-  let date = new Date();
-      document.getElementById("mainHeading").innerText += date.toDateString();
-
-// My script for adding items to list
-
 //   Empty the title and description fields function javascript
       updateBox = () => {
         console.log("updateBox called");
@@ -15,7 +5,7 @@
         document.getElementById("description").value = "";
       };
 
-      // Javascript for add button functionality
+// Javascript for add button functionality
 
       let submit = document.getElementById("add");
 
